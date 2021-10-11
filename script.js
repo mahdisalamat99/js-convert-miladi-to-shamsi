@@ -35,8 +35,8 @@ function shamsiDate(year,month,day){
          }
          sYear = year - 621;
      } else {
-         let differ = kabiseDetector(year -1) ? 11 :10;
-         totalDay += differ;
+         let ekhtelaf = kabiseDetector(year -1) ? 11 :10;
+         totalDay += ekhtelaf;
          if ( totalDay %30 === 0){
              sMonth = totalDay / 30 + 9;
              sDay = 30 ;
